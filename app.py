@@ -4,7 +4,7 @@ from langchain.chat_models import ChatOpenAI
 import os
 
 # Set your OpenAI key (or use st.secrets)
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = 
 
 
 llm = ChatOpenAI(model="gpt-4", temperature=0.3)
